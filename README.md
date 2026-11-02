@@ -3,6 +3,8 @@
 Minimal reproduction for a Nuxt 4.6 regression: a Nuxt app booted inside an
 `<iframe srcdoc>` fails during client initialization.
 
+Reported upstream as [nuxt/nuxt#36815](https://github.com/nuxt/nuxt/issues/36815).
+
 ## The bug
 
 Since Nuxt 4.6.0 ([#36391](https://github.com/nuxt/nuxt/pull/36391)),
